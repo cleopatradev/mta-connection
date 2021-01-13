@@ -16,7 +16,7 @@ A dbConnection resource for MTA:SA supports create dynamic connections
 - save and close file
 - restart the resource
 ```
-##### Example `meta.xml`
+##### `meta.xml` example
 ```xml
 <meta>
   <info author="enesbayrktar" version="1.0.0" name="GTTstorage" type="script" />
