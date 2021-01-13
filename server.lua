@@ -24,10 +24,11 @@ addEventHandler('onResourceStart', root, function(resource)
   end
 )
 
-addEventHandler('onElementDataChange', resourceRoot, function(theKey, _, newValue)
-  if not ( theKey == 'db-connection' ) then
-    return false
-  end
-  dbConnection = newValue
-end
-)
+-- example
+--addEventHandler('onElementDataChange', resourceRoot, function(theKey, _, newValue)
+--  if not ( theKey == 'db-connection' ) then
+--    return false
+--  end
+--  dbConnection = newValue
+--end
+--)
