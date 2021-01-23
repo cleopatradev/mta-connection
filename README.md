@@ -1,4 +1,4 @@
-# lua-connection
+# mta-connection
 A dbConnection resource for MTA:SA supports create dynamic connections
 
 
@@ -12,7 +12,7 @@ A dbConnection resource for MTA:SA supports create dynamic connections
 
 ```markdown
 # Find which resource want to connect database and open resource meta.xml file
-- add <dbConnection value='true' />
+- add <dbConnection database="[dbname]" />
 - save and close file
 - restart the resource
 ```
@@ -21,7 +21,7 @@ A dbConnection resource for MTA:SA supports create dynamic connections
 <meta>
   <info author="enesbayrktar" version="1.0.0" name="GTTstorage" type="script" />
   <min_mta_version server="1.5.6-9.18728" client="1.5.8-9.20698.0" />
-  <dbConnection value='true' />
+  <dbConnection database="default" />
 
   <script type="shared" src="shared.lua" />
   <script type="server" src="server.lua" />
